@@ -31,12 +31,12 @@ import re
 # Prevent warning for https/http
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-SERVER_URL = 'http://192.168.1.130:8081'
-INIT_URL = 'http://192.168.1.130:8081/init'
-DATA_URL = 'http://192.168.1.130:8081/raw-data'
-WS_URL = 'ws://192.168.1.130:8081'
-CHECK_VERSION_URL = 'http://192.168.1.130:8081/mvp-check-update'
-GET_VERSION_URL = 'http://192.168.1.130:8081/mvp-get-update'
+SERVER_URL = 'http://34.213.171.6:8081'
+INIT_URL = 'http://34.213.171.6:8081/init'
+DATA_URL = 'http://34.213.171.6:8081/raw-data'
+WS_URL = 'ws://34.213.171.6:8081'
+CHECK_VERSION_URL = 'http://34.213.171.6:8081/mvp-check-update'
+GET_VERSION_URL = 'http://34.213.171.6:8081/mvp-get-update'
 
 JWT_PATH = '/home/root/jwt.txt'
 VERSION_PATH = '/home/root/version.txt'
